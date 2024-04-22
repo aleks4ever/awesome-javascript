@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log("1 && 2 = "+(1 && 2));
