@@ -1,6 +1,6 @@
-const results = await Promise.all(resultingPromises);
-[foo, bar] = [bar, foo];
-const randomString = () => Math.random().toString(36).slice(2);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const getRandomBoolean = () => Math.random() >= 0.5;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const allResults = await Promise.all(items.map(async (item) => {}));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = (a, b) => a.concat(b);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const toggleBool = () => (bool = !bool);
