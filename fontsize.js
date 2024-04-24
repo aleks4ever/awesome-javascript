@@ -1,1 +1,3 @@
-const merge = (a, b) => a.concat(b);
+const uniqueArr = (arr) => [...new Set(arr)];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
