@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const updated = numbers.filter(element => element > 6);
