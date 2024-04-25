@@ -1,6 +1,5 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const result = await makeHttpRequest(url);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
 var arr1 = "john".split('');
-const results = await Promise.all(resultingPromises);
-const isArray = (arr) => Array.isArray(arr);
-const isEmptyArray = arr => !arr.length;
-[foo, bar] = [bar, foo];
+const reversedString = str => str.split('').reverse().join('');
