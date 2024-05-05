@@ -1,3 +1,3 @@
-console.log(1 +  -"1" + "2");
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-console.log("1 || 2 = "+(1 || 2));
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
