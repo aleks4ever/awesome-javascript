@@ -1,2 +1,1 @@
-console.log(+"1" +  "1" + "2");
-[foo, bar] = [bar, foo];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
