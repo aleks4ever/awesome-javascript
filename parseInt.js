@@ -1,3 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const arrayContains = (arr, element) => arr.includes(element);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+var arr3 = "jones".split('');
