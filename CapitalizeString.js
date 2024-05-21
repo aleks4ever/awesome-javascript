@@ -1,1 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log(1 +  -"1" + "2");
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
