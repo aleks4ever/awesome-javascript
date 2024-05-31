@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const appName = getAppName(channel);
+const merge = [...new Set(a.concat(b))];
+const results = await Promise.all(resultingPromises);
