@@ -1,3 +1,3 @@
-console.log(typeof typeof 1);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-console.log(1 +  "2" + "2");
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const merge = (a, b) => a.concat(b);
