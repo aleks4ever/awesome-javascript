@@ -1,2 +1,3 @@
-var arr1 = "john".split('');
-console.log(false == '0');
+var pattern = {};
+const goToTop = () => window.scrollTo(0, 0);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
