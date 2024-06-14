@@ -1,2 +1,1 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const channel = getChannel(computedAppVersion);
+console.log(typeof typeof 1);
