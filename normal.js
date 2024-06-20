@@ -1,3 +1,3 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-console.log(+"1" +  "1" + "2");
-const repositoryRootPath = path.resolve(__dirname, '..');
+const merge = [...new Set(a.concat(b))];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
