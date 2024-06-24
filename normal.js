@@ -1,3 +1,3 @@
-const merge = [...new Set(a.concat(b))];
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const updated = numbers.filter(element => element > 6);
+const results = await Promise.all(resultingPromises);
+const randomBoolean = () => Math.random() >= 0.5;
