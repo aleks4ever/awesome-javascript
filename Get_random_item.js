@@ -1,2 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isEmptyArray = arr => !arr.length;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
