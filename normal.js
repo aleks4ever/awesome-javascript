@@ -1,2 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-console.log(1 +  -"1" + "2");
+const fullName = name || 'buddy';
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
