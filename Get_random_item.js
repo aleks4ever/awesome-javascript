@@ -1,2 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const executableName = getExecutableName(channel, appName);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
