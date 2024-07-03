@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const flattenedArray = arr => [].concat(...arr);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const toggleBool = () => (bool = !bool);
