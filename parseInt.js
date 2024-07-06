@@ -1,3 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const removeDuplicates = (arr) => [...new Set(arr)];
-const merge = Object.assign({}, obj1, obj2);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+var arr3 = "jones".split('');
