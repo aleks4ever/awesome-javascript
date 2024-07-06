@@ -1,1 +1,2 @@
-const merge = (a, b) => a.concat(b);
+function myAPITS(someString: string, someNum: number) { ... };
+const merge = [...new Set([...a, ...b])];
