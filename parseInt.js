@@ -1,3 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-var arr3 = "jones".split('');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log("0 || 1 = "+(0 || 1));
