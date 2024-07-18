@@ -1,2 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const maxNumber = arr => Math.max(...arr);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log(1 +  -"1" + "2");
