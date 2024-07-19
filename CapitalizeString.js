@@ -1,1 +1,1 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
