@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const executableName = getExecutableName(channel, appName);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
