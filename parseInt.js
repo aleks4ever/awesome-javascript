@@ -1,2 +1,2 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-console.log(false === '0');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const channelName = getChannelName(channel);
