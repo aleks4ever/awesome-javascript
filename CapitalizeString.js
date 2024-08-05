@@ -1,2 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var arr2 = arr1.reverse();
