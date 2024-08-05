@@ -1,2 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const isTabInView = () => !document.hidden;
+const isEmptyArray = arr => !arr.length;
+console.log(false == '0');
